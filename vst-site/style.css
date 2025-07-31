@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to right, #f27830, #ffc107);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#subscribe {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#subscribeBtn {
+    background-color: #00c851;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#subscribeBtn:disabled {
+    background-color: gray;
+    cursor: default;
+}
+
+.youtube-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#downloads ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#downloads li {
+    background-color: #333;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#downloads a {
+    color: #00c851;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.text-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: black;
+}
+
+.text-header p {
+    font-size: 1.1em;
+    color: black;
+}
+
+
+#extras {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.extra-btn {
+    background-color: #f27830;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.extra-btn:hover {
+    background-color: #ffa94d;
+}

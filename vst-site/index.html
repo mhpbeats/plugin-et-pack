@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plugins & VST - MHP Beats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="header-content">
+        
+        <div class="text-header">
+            <h1>MHP Beats - Plugins & Sample Packs</h1>
+            <p>🎧 Télécharge des VST, Plugins, et Samples Gratuits</p>
+        </div>
+    </div>
+</header>
+
+
+    <section id="instructions">
+        <h2>Avant de télécharger :</h2>
+        <ol>
+            <li>Abonne-toi à ma chaîne YouTube ci-dessous</li>
+            <li>Une fois abonné, clique sur "Télécharger"</li>
+        </ol>
+    </section>
+
+    <section id="subscribe">
+        <button id="subscribeBtn" onclick="showDownload()">✅ Je me suis abonné</button>
+        <a href="https://www.youtube.com/@mhpbeats-f4p" target="_blank" class="youtube-link">▶️ Aller sur ma chaîne YouTube</a>
+    </section>
+
+    <section id="downloads" style="display: none;">
+        <h2>🎁 Liens de téléchargement :</h2>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/1OQEVZMzMQToZIZiq13QdMTw_o3blMavN/view?usp=drive_link" target="_blank">Télécharger le VST #1</a></li>
+            <li><a href="https://drive.google.com/file/d/12OWsGrc6crLrbuZAmc4cc7rUSKAqMC6d/view?usp=drive_link" target="_blank">Télécharger Sample Pack </a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MHP Beats. Tous droits réservés.</p>
+    </footer>
+
+    <section id="extras">
+    <div class="button-group">
+        <a href="https://www.youtube.com/@mhpbeats-f4p" target="_blank" class="extra-btn">🔁 Retour à la chaîne YouTube</a>
+        <a href="mailto:mhpbeats8@gmail.com" class="extra-btn">📩 Me contacter</a>
+        <!-- Ou tu peux aussi utiliser Instagram -->
+        <!-- <a href="https://www.instagram.com/toncompte" target="_blank" class="extra-btn">📩 Me contacter sur Insta</a> -->
+    </div>
+</section>
+
+
+    <script>
+        function showDownload() {
+            document.getElementById("downloads").style.display = "block";
+            document.getElementById("subscribeBtn").innerText = "✅ Merci pour ton abonnement !";
+            document.getElementById("subscribeBtn").disabled = true;
+        }
+    </script>
+</body>
+</html>
